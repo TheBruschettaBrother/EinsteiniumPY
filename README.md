@@ -49,8 +49,4 @@ as of now we have the .periodic_table_get function that can fetch about a certai
 
 The .periodic_table_get function can fetch the data about a element such as the, symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal). 
 
-
-We are working on adding all the elements of the elements to our index but for now we only have
-- hydrogen
-- lithium
-- helium
+We have a Index of all 118 elements in the periodic table
