@@ -1,8 +1,7 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=TheBruschettaBrother&show_icons=true)
 
 # Usage
 
