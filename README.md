@@ -180,10 +180,11 @@ Pound2kg converts Pound to Kg
 ## Example
 ```pounds = 165.3465  # Weight in pounds
 kg = pound2kg(pounds)  # Convert to kilograms
-print(kg)```
+print(kg)
+```
 
 ## ..planets_info_get
-Gets information about planets 
+Gets information about planets
 
 ## Example
 ```import Einsteinium as einsteinium
