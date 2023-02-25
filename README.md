@@ -45,9 +45,9 @@ If You need help importing files as libraries use [how-to-import-a-library-in-py
 # Functionality
 We have the .periodic_table_get function that can fetch about a certain element and the .particle_info_get Which gets info about a certain particle and its charge,mass,symbol
 
-##.particle_info_get
+## .particle_info_get
 The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
-## Example 1
+## Example
 ```
 import Einsteinium as einsteinium
 # Get information about a proton
