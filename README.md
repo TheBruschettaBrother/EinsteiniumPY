@@ -196,7 +196,8 @@ print("Density:", planet_info['density'])
 print("Gravity:", planet_info['gravity'])
 print("Orbital Period:", planet_info['orbital_period'])
 print("Distance from Sun:", planet_info['distance_from_sun'])
-print("Number of Moons:", planet_info['number_of_moons'])```
+print("Number of Moons:", planet_info['number_of_moons'])
+```
 
 **Example Output**
 
@@ -206,7 +207,8 @@ Density: 3.9335
 Gravity: 3.711
 Orbital Period: 687
 Distance from Sun: 1.52
-Number of Moons: 2```
+Number of Moons: 2
+```
 
 # Varibles
 
