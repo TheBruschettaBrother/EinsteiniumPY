@@ -17,7 +17,9 @@ Put the ```Einsteinium.py``` file into your scripts folder and Import the File a
 If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
 
 # Functionality
-We have the .periodic_table_get function that can fetch about a certain element and the .particle_info_get Which gets info about a certain particle and its charge,mass,symbol
+-.periodic_table_get fetch about a certain periodic table element
+
+-.particle_info_get Which gets info like charge,mass,symbol about a type of particle
 
 ## .particle_info_get
 The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
@@ -45,7 +47,7 @@ Mass: 1.007276466879
 The .periodic_table_get function can fetch the data about a element such as the, symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal). 
 
 We have a Index of all 118 elements in the periodic table
-## Example 1
+## Example
 ```
 import Einsteinium as einsteinium
 element_name = "hydrogen"
@@ -69,3 +71,14 @@ Group: 1
 Period: 1
 Category: nonmetal
 ```
+
+## .Kelvin2Celsius
+the Kelvin2Celsius Converts Kelvin to Celsius, quite straightforward.
+## Example
+```
+kelvin_temp = 300.0  # Temperature in Kelvin
+celsius_temp = einsteinium.Kelvin2Celsius(kelvin_temp)  # Convert to Celsius
+print(celsius_temp)
+```
+**Example Output**
+```26.850000000000023```
