@@ -34,10 +34,15 @@ Put the ```Einsteinium.py``` file into your scripts folder and Import the File a
 
 If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
 
-#]Functionality
-as of now we have the .periodic_table_get function that can fetch the symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal)
+# Functionality
+as of now we have the .periodic_table_get function that can fetch about a certain element
 
-We are working on importing all the elements but for now we only have
+## .periodic_table_get
+
+The .periodic_table_get function can fetch the data about a element such as the, symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal). 
+
+
+We are working on adding all the elements of the elements to our index but for now we only have
 - hydrogen
 - lithium
 - helium
