@@ -20,7 +20,8 @@ If You need help importing files as libraries use [how-to-import-a-library-in-py
 -.periodic_table_get fetch about a certain periodic table element
 
 -.particle_info_get Which gets info like charge,mass,symbol about a type of particle
-
+- We have a Bunch of conversion functions like Celcuis2Kelvin
+-.planets_info_get, Gets infomation about all the planets in out solar system + the moon and the sun
 ## .particle_info_get
 The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
 ## Example
@@ -175,17 +176,37 @@ print(pounds)
 ```165.3465```
 
 ## .Pound2Kg
-
-```Pound2kg converts Pound to Kg
+Pound2kg converts Pound to Kg
 ## Example
-pounds = 165.3465  # Weight in pounds
+```pounds = 165.3465  # Weight in pounds
 kg = pound2kg(pounds)  # Convert to kilograms
-print(kg)
-```
+print(kg)```
+
+## ..planets_info_get
+Gets information about planets 
+
+## Example
+```import Einsteinium as einsteinium
+
+planet_info = einsteinium.planets_info_get('Mars')
+
+print("Mass:", planet_info['mass'])
+print("Diameter:", planet_info['diameter'])
+print("Density:", planet_info['density'])
+print("Gravity:", planet_info['gravity'])
+print("Orbital Period:", planet_info['orbital_period'])
+print("Distance from Sun:", planet_info['distance_from_sun'])
+print("Number of Moons:", planet_info['number_of_moons'])```
 
 **Example Output**
 
-```75.0```
+```Mass: 6.4171e+23
+Diameter: 6779
+Density: 3.9335
+Gravity: 3.711
+Orbital Period: 687
+Distance from Sun: 1.52
+Number of Moons: 2```
 
 # Varibles
 
