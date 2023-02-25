@@ -1018,3 +1018,19 @@ def particle_info_get(particle_name):
         return particles[particle_name]
     else:
         return None
+
+def Kelvin2Celsius(temp_k):
+    temp_c = temp_k - 273.15  # Conversion formula
+    return temp_c
+
+def Celsius2Kelvin(temp_c):
+    temp_k = temp_c + 273.15  # Conversion formula
+    return temp_k
+
+def Fahrenheit2Celsius(temp_f):
+    temp_c = (temp_f - 32) * 5/9  # Conversion formula
+    return temp_c
+
+def Celsius2Fahrenheit(temp_c):
+    temp_f = (temp_c * 9/5) + 32  # Conversion formula
+    return temp_f
