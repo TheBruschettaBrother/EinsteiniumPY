@@ -12,8 +12,7 @@ Python Library for pulling basic Scientific Info
 
 
 ## Example 
-```
-import Einsteinium as einsteinium
+```import Einsteinium as einsteinium
 element_name = "hydrogen"
 element_info = einsteinium.periodic_table_get(element_name)
 if element_info:
@@ -24,19 +23,16 @@ if element_info:
     print(f"Period: {element_info['period']}")
     print(f"Category: {element_info['category']}")
 else:
-    print("Element not found.")
-```
+    print("Element not found.")```
 
 **Example's Output**
 
-```
-Symbol: H
+```Symbol: H
 Atomic number: 1
 Atomic mass: 1.008
 Group: 1
 Period: 1
-Category: nonmetal
-```
+Category: nonmetal```
 
 # Installation
 Put the ```Einsteinium.py``` file into your scripts folder and Import the File as a library with
