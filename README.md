@@ -183,11 +183,12 @@ kg = pound2kg(pounds)  # Convert to kilograms
 print(kg)
 ```
 
-## ..planets_info_get
+## .planets_info_get
 Gets information about planets
 
 ## Example
-```import Einsteinium as einsteinium
+```
+import Einsteinium as einsteinium
 
 planet_info = einsteinium.planets_info_get('Mars')
 
