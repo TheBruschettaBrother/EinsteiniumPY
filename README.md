@@ -2,6 +2,8 @@
 Python Library for pulling basic Scientific Info
 
 #Usage
+
+##Exsample 1
 ```
 import periodic_table
 element_name = "hydrogen"
@@ -16,5 +18,15 @@ if element_info:
 else:
     print("Element not found.")
 ```
+**Exsample 1's Output**
+```
+Symbol: H
+Atomic number: 1
+Atomic mass: 1.008
+Group: 1
+Period: 1
+Category: nonmetal
+```
+
 #Installation
-```put the ```
+put the
