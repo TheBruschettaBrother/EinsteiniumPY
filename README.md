@@ -1,8 +1,7 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=TheBruschettaBrother&show_icons=true)
-
+![Monero](https://img.shields.io/badge/monero-FF6600?style=for-the-badge&logo=monero&logoColor=white)
 # Usage
 
 ## Exsample 1
