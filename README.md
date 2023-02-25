@@ -34,7 +34,8 @@ print(f"Mass: {proton_info['mass']}")
 ```
 
 **Exsample Output**
-```Symbol: p+
+```
+Symbol: p+
 Charge: 1
 Mass: 1.007276466879
 ```
