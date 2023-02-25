@@ -5,9 +5,9 @@ Python Library for pulling basic Scientific Info
 
 ## Exsample 1
 ```
-import periodic_table
+import Einsteinium as einsteinium
 element_name = "hydrogen"
-element_info = periodic_table.get_element_info(element_name)
+element_info = einsteinium.periodic_table_get(element_name)
 if element_info:
     print(f"Symbol: {element_info['symbol']}")
     print(f"Atomic number: {element_info['atomic number']}")
@@ -29,4 +29,9 @@ Category: nonmetal
 ```
 
 # Installation
-put the
+Put the ```Einsteinium.py``` file into your scripts folder and Import the File as a library with
+```import Einsteinium as einsteinium```
+
+If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
+#Functionality
+
