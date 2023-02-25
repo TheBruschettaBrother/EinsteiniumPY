@@ -1,6 +1,6 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
-
+!\[my badge\](https://badgen.net/github/release/TheBruschettaBrother/EinsteiniumPY)
 # Usage
 
 ## Exsample 1
