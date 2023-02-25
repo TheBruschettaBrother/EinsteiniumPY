@@ -33,5 +33,11 @@ Put the ```Einsteinium.py``` file into your scripts folder and Import the File a
 ```import Einsteinium as einsteinium```
 
 If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
-#Functionality
 
+#]Functionality
+as of now we have the .periodic_table_get function that can fetch the symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal)
+
+We are working on importing all the elements but for now we only have
+- hydrogen
+- lithium
+- helium
