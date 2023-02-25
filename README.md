@@ -1,5 +1,5 @@
 # EinsteiniumPY
-Python Library for pulling basic Scientific Info
+Python Library for Pulling/Processing basic Scientific Info
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheBruschettaBrother/EinsteiniumPY)](https://github.com/TheBruschettaBrother/EinsteiniumPY)
