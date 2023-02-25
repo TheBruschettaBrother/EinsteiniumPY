@@ -1034,3 +1034,15 @@ def Fahrenheit2Celsius(temp_f):
 def Celsius2Fahrenheit(temp_c):
     temp_f = (temp_c * 9/5) + 32  # Conversion formula
     return temp_f
+
+def Meter2Feet(m):
+    return m * 3.28084
+
+def Feet2Meter(ft):
+    return ft / 3.28084
+
+def Kg2Pound(kg):
+    return kg * 2.20462
+
+def Pound2Kg(lb):
+    return lb / 2.20462
