@@ -186,3 +186,12 @@ print(kg)
 **Example Output**
 
 ```75.0```
+
+# Varibles
+
+## SI defining constants
+
+| SI constant | Varible | Value  |
+| ----------- | ----------- | ------- |
+| Speed of light in a vacuum (m/s) | einsteinium.c | 299792458 |
+| Planck's constant (J*s) | einsteinium.h | 6.62607015e-34 |
