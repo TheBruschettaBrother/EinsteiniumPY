@@ -957,3 +957,64 @@ def periodic_table_get(element_name):
     else:
         # If the element doesn't exist in the dictionary, return None
         return None
+
+def particle_info_get(particle_name):
+    particles = {
+        "proton": {
+            "charge": 1,
+            "mass": 1.007276466879,
+            "symbol": "p+"
+        },
+        "neutron": {
+            "charge": 0,
+            "mass": 1.00866491588,
+            "symbol": "n"
+        },
+        "electron": {
+            "charge": -1,
+            "mass": 0.000548579909070,
+            "symbol": "e-"
+        },
+        "muon": {
+            "charge": -1,
+            "mass": 0.1134289267,
+            "symbol": "μ-"
+        },
+        "tau": {
+            "charge": -1,
+            "mass": 1.77686,
+            "symbol": "τ-"
+        },
+        "photon": {
+            "charge": 0,
+            "mass": 0,
+            "symbol": "γ"
+        },
+        "gluon": {
+            "charge": 0,
+            "mass": 0,
+            "symbol": "g"
+        },
+        "W boson": {
+            "charge": 1,
+            "mass": 80.379,
+            "symbol": "W+"
+        },
+        "Z boson": {
+            "charge": 0,
+            "mass": 91.1876,
+            "symbol": "Z"
+        },
+        "Higgs boson": {
+            "charge": 0,
+            "mass": 125.18,
+            "symbol": "H"
+        },
+    }
+
+    particle_name = particle_name.lower()
+
+    if particle_name in particles:
+        return particles[particle_name]
+    else:
+        return None
