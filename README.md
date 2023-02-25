@@ -197,3 +197,5 @@ print(kg)
 | Planck's constant (J*s) | einsteinium.h | 6.62607015e-34 |
 | Elementary charge (C) | einsteinium.e | 1.602176634e-19 |
 | Boltzmann constant (J/K) | einsteinium.k | 1.380649e-23 |
+| Avogadro constant (mol^-1) | einsteinium.Na | 6.02214076e23 |
+| Gravitational constant (m^3/kg/s^2) | einsteinium.G | 6.67430e-11 |
