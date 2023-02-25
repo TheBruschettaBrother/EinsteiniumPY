@@ -25,7 +25,6 @@ def get_element_info(element_name):
             "period": 2,
             "category": "alkali metal"
         },
-        # add more elements here...
     }
 
     # Convert the input to lowercase for easier comparison
