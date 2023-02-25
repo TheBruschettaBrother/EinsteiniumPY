@@ -23,8 +23,8 @@ if element_info:
     print(f"Period: {element_info['period']}")
     print(f"Category: {element_info['category']}")
 else:
-    print("Element not found.")```
-
+    print("Element not found.")
+```
 **Example's Output**
 
 ```Symbol: H
@@ -55,7 +55,6 @@ print(f"Symbol: {proton_info['symbol']}")
 print(f"Charge: {proton_info['charge']}")
 print(f"Mass: {proton_info['mass']}")
 ```
-
 *Example's output*
 
 ## .periodic_table_get
