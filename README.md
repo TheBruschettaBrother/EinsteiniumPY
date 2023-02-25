@@ -1,7 +1,7 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
 
-
+![xmr:4Aixxy7ETBSHjQq3CofezqakkjsxrqZP3MSwWWWauGK92rFDwFZCBZHSLoLJ1KfGG867F8x8JJxUA6D6SqmbP5tDQnoLify](https://img.shields.io/badge/monero-FF6600?style=for-the-badge&logo=monero&logoColor=white)
 # Usage
 
 ## Exsample 1
