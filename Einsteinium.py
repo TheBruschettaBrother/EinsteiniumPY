@@ -1064,3 +1064,96 @@ Na = 6.02214076e23
 
 # Gravitational constant (m^3/kg/s^2)
 G = 6.67430e-11
+
+def planets_info_get():
+    planet_dict = {
+        "Mercury": {
+            "mass": 3.3011e23,
+            "diameter": 4879,
+            "density": 5.427,
+            "gravity": 3.7,
+            "orbital_period": 88,
+            "distance_from_sun": 0.39,
+            "number_of_moons": 0
+        },
+        "Venus": {
+            "mass": 4.8675e24,
+            "diameter": 12104,
+            "density": 5.243,
+            "gravity": 8.87,
+            "orbital_period": 225,
+            "distance_from_sun": 0.72,
+            "number_of_moons": 0
+        },
+        "Earth": {
+            "mass": 5.97237e24,
+            "diameter": 12742,
+            "density": 5.52,
+            "gravity": 9.81,
+            "orbital_period": 365.24,
+            "distance_from_sun": 1,
+            "number_of_moons": 1
+        },
+        "Mars": {
+            "mass": 6.4171e23,
+            "diameter": 6779,
+            "density": 3.9335,
+            "gravity": 3.711,
+            "orbital_period": 687,
+            "distance_from_sun": 1.52,
+            "number_of_moons": 2
+        },
+        "Jupiter": {
+            "mass": 1.8982e27,
+            "diameter": 139822,
+            "density": 1.326,
+            "gravity": 24.79,
+            "orbital_period": 4331,
+            "distance_from_sun": 5.2,
+            "number_of_moons": 79
+        },
+        "Saturn": {
+            "mass": 5.6834e26,
+            "diameter": 116460,
+            "density": 0.687,
+            "gravity": 10.44,
+            "orbital_period": 10747,
+            "distance_from_sun": 9.58,
+            "number_of_moons": 82
+        },
+        "Uranus": {
+            "mass": 8.6810e25,
+            "diameter": 50724,
+            "density": 1.27,
+            "gravity": 8.69,
+            "orbital_period": 30589,
+            "distance_from_sun": 19.18,
+            "number_of_moons": 27
+        },
+        "Neptune":{
+            "mass": 1.02413e26,
+            "diameter": 49244,
+            "density": 1.638,
+            "gravity": 11.15,
+            "orbital_period": 59800,
+            "distance_from_sun": 30.07,
+            "number_of_moons": 14
+        },
+        'Moon': {
+            'Type': 'Moon',
+            'Distance from Planet (km)': 384400,
+            'Diameter (km)': 3475,
+            'Mass': 7.34e22,
+            'Orbital Period (days)': 27.32,
+            'Rotation Period (days)': 27.32,
+            'Surface Temperature (K)': 250
+        },
+        'Sun': {
+            'Type': 'Star',
+            'Distance from center of Milky Way (light years)': 0,
+            'Diameter (km)': 1391684,
+            'Mass': 1.989e30,
+            'Number of Planets': 8
+        },
+    }
+    return planet_dict
