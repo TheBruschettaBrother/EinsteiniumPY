@@ -7,7 +7,7 @@ Python Library for pulling basic Scientific Info
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheBruschettaBrother/EinsteiniumPY)](https://github.com/TheBruschettaBrother/EinsteiniumPY/commits/master)
 
 
-## Exsample 1
+## Example 1
 ```
 import Einsteinium as einsteinium
 element_name = "hydrogen"
