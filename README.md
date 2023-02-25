@@ -1,7 +1,7 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
 
-[![Monero Wallet](https://img.shields.io/badge/monero-wallet-ff6600.svg)](xmr:4Aixxy7ETBSHjQq3CofezqakkjsxrqZP3MSwWWWauGK92rFDwFZCBZHSLoLJ1KfGG867F8x8JJxUA6D6SqmbP5tDQnoLify)
+[![Monero wallet](https://img.shields.io/badge/monero-FF6600?style=for-the-badge&logo=monero&logoColor=white)](xmr:4Aixxy7ETBSHjQq3CofezqakkjsxrqZP3MSwWWWauGK92rFDwFZCBZHSLoLJ1KfGG867F8x8JJxUA6D6SqmbP5tDQnoLify)
 
 # Usage
 
