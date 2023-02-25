@@ -34,19 +34,6 @@ Group: 1
 Period: 1
 Category: nonmetal```
 
-# Installation
-Put the ```Einsteinium.py``` file into your scripts folder and Import the File as a library with
-```import Einsteinium as einsteinium```
-
-If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
-
-# Functionality
-We have the .periodic_table_get function that can fetch about a certain element and the .particle_info_get Which gets info about a certain particle and its charge,mass,symbol
-
-## .particle_info_get
-The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
-## Example
-```import Einsteinium as einsteinium
 
 proton_info = einsteinium.particle_info_get('proton')
 
