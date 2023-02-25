@@ -2,8 +2,10 @@
 Python Library for pulling basic Scientific Info
 
 
-[![Monero Wallet](https://img.shields.io/badge/monero-wallet-ff6600.svg)](xmr:4Aixxy7ETBSHjQq3CofezqakkjsxrqZP3MSwWWWauGK92rFDwFZCBZHSLoLJ1KfGG867F8x8JJxUA6D6SqmbP5tDQnoLify)
-# Usage
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
+[![GitHub repo size](https://img.shields.io/github/repo-size/{username}/{repository-name})](https://github.com/{username}/{repository-name})
+[![GitHub contributors](https://img.shields.io/github/contributors/{username}/{repository-name})](https://github.com/{username}/{repository-name}/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/{username}/{repository-name})](https://github.com/{username}/{repository-name}/commits/master)
 
 ## Exsample 1
 ```
