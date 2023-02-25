@@ -50,3 +50,27 @@ as of now we have the .periodic_table_get function that can fetch about a certai
 The .periodic_table_get function can fetch the data about a element such as the, symbol(Eg."H"), atomic number(Eg. 1),atomic mass(Eg. 1.008),group(Eg. 1),period(1),category(Eg. nonmetal). 
 
 We have a Index of all 118 elements in the periodic table
+## Example 1
+```
+import Einsteinium as einsteinium
+element_name = "hydrogen"
+element_info = einsteinium.periodic_table_get(element_name)
+if element_info:
+    print(f"Symbol: {element_info['symbol']}")
+    print(f"Atomic number: {element_info['atomic number']}")
+    print(f"Atomic mass: {element_info['atomic mass']}")
+    print(f"Group: {element_info['group']}")
+    print(f"Period: {element_info['period']}")
+    print(f"Category: {element_info['category']}")
+else:
+    print("Element not found.")
+```
+**Exsample 1's Output**
+```
+Symbol: H
+Atomic number: 1
+Atomic mass: 1.008
+Group: 1
+Period: 1
+Category: nonmetal
+```
