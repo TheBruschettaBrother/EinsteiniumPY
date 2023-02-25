@@ -124,4 +124,69 @@ print(fahrenheit_temp)
 
 ```77.0```
 
+## .Meter2Feet
+the Meter2Feet Converts Meters to Feet, quite straightforward.
+## Example
+```
+import Einsteinium as einsteinium
+meters = 10.0  # Length in meters
+feet = einsteinium.Meter2Feet(meters)  # Convert to feet
+print(feet)
+```
+**Example Output**
+
+```32.8084```
+
+## .Meter2Feet
+the Meter2Feet Converts Meters to Feet, quite straightforward.
+## Example
+```
+import Einsteinium as einsteinium
+meters = 10.0  # Length in meters
+feet = einsteinium.Meter2Feet(meters)  # Convert to feet
+print(feet)
+```
+**Example Output**
+
+```32.8084```
+## .Feet2Meter
+the Feet2Meter Converts Feet to Meter.
+## Example
+```
+import Einsteinium as einsteinium
+```
+feet = 32.8084  # Length in feet
+meters = einsteinium.Feet2Meter(feet)  # Convert to meters
+print(meters)     
+```
+**Example Output**
+
+```10.0```
+
+## .Kg2Pound
+the Kg2Pound Converts Kg to Pound.
+## Example
+```
+import Einsteinium as einsteinium
+```
+feet = 32.8084  # Length in feet
+meters = einsteinium.Kg2Pound(feet)  # Convert to meters
+print(meters)     
+```
+**Example Output**
+
+```10.0```
+
+## Pound2Kg
+the Kg2Pound Converts Pound to Kg.
+## Example
+```
+import Einsteinium as einsteinium
+Kg2Pounds = 165.3465  # Weight in pounds
+>>> kg = pound2kg(pounds)  # Convert to kilograms
+>>> print(kg)
+```
+**Example Output**
+
+```75.0```
 
