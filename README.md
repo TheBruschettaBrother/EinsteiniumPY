@@ -195,3 +195,5 @@ print(kg)
 | ----------- | ----------- | ------- |
 | Speed of light in a vacuum (m/s) | einsteinium.c | 299792458 |
 | Planck's constant (J*s) | einsteinium.h | 6.62607015e-34 |
+| Elementary charge (C) | einsteinium.e | 1.602176634e-19 |
+| Boltzmann constant (J/K) | einsteinium.k | 1.380649e-23 |
