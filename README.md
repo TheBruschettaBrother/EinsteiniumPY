@@ -43,7 +43,25 @@ Put the ```Einsteinium.py``` file into your scripts folder and Import the File a
 If You need help importing files as libraries use [how-to-import-a-library-in-python](https://codeberryschool.com/blog/en/how-to-import-a-library-in-python/) by [codeberryschool.com](codeberryschool.com)
 
 # Functionality
-as of now we have the .periodic_table_get function that can fetch about a certain element
+We have the .periodic_table_get function that can fetch about a certain element and the .particle_info_get Which gets info about a certain particle and its charge,mass,symbol
+
+##.particle_info_get
+The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
+## Example 1
+```import Einsteinium as einsteinium
+
+# Get information about a proton
+proton_info = einsteinium.particle_info_get('proton')
+
+# Print the information
+print(f"Symbol: {proton_info['symbol']}")
+print(f"Charge: {proton_info['charge']}")
+print(f"Mass: {proton_info['mass']}")```
+
+**Example's Output**
+```Symbol: p+
+Charge: 1
+Mass: 1.007276466879 kg```
 
 ## .periodic_table_get
 
@@ -65,7 +83,7 @@ if element_info:
 else:
     print("Element not found.")
 ```
-**Exsample 1's Output**
+**Example's Output**
 ```
 Symbol: H
 Atomic number: 1
