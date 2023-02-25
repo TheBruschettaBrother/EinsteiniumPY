@@ -154,7 +154,6 @@ the Feet2Meter Converts Feet to Meter.
 ## Example
 ```
 import Einsteinium as einsteinium
-```
 feet = 32.8084  # Length in feet
 meters = einsteinium.Feet2Meter(feet)  # Convert to meters
 print(meters)     
@@ -167,26 +166,23 @@ print(meters)
 the Kg2Pound Converts Kg to Pound.
 ## Example
 ```
-import Einsteinium as einsteinium
+kg = 75.0  # Weight in kilograms
+pounds = Kg2Pound(kg)  # Convert to pounds
+print(pounds)
 ```
-feet = 32.8084  # Length in feet
-meters = einsteinium.Kg2Pound(feet)  # Convert to meters
-print(meters)     
-```
+
 **Example Output**
+```165.3465```
 
-```10.0```
+## .Pound2Kg
 
-## Pound2Kg
-the Kg2Pound Converts Pound to Kg.
+```Pound2kg converts Pound to Kg
 ## Example
+pounds = 165.3465  # Weight in pounds
+kg = pound2kg(pounds)  # Convert to kilograms
+print(kg)
 ```
-import Einsteinium as einsteinium
-Kg2Pounds = 165.3465  # Weight in pounds
->>> kg = pound2kg(pounds)  # Convert to kilograms
->>> print(kg)
-```
+
 **Example Output**
 
 ```75.0```
-
