@@ -76,6 +76,7 @@ Category: nonmetal
 the Kelvin2Celsius Converts Kelvin to Celsius, quite straightforward.
 ## Example
 ```
+import Einsteinium as einsteinium
 kelvin_temp = 300.0  # Temperature in Kelvin
 celsius_temp = einsteinium.Kelvin2Celsius(kelvin_temp)  # Convert to Celsius
 print(celsius_temp)
@@ -88,6 +89,7 @@ print(celsius_temp)
 the Celsius2Kelvin Converts Kelvin to Celcuis, quite straightforward.
 ## Example
 ```
+import Einsteinium as einsteinium
 celsius_temp = 100.0  # Temperature in Celsius
 kelvin_temp = einsteinium.Celsius2Kelvin(celsius_temp)  # Convert to Kelvin
 print(kelvin_temp) 
@@ -95,3 +97,31 @@ print(kelvin_temp)
 **Example Output**
 
 ```373.15```
+
+## .Fahrenheit2Celsius
+the Fahrenheit2Celsius Converts Fahrenheit to Celcuis, quite straightforward.
+## Example
+```
+import Einsteinium as einsteinium
+fahrenheit_temp = 77.0  # Temperature in Fahrenheit
+celsius_temp = einsteinium.Fahrenheit2Celsius(fahrenheit_temp)  # Convert to Celsius
+print(celsius_temp)
+```
+**Example Output**
+
+```25.0```
+
+## .Celsius2Fahrenheit
+the Celsius2Fahrenheit Converts Celcuis to Fahrenheit, quite straightforward.
+## Example
+```
+import Einsteinium as einsteinium
+celsius_temp = 25.0  # Temperature in Celsius
+fahrenheit_temp = einsteinium.Celsius2Fahrenheit(celsius_temp)  # Convert to Fahrenheit
+print(fahrenheit_temp)  
+```
+**Example Output**
+
+```77.0```
+
+
