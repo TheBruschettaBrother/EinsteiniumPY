@@ -1046,3 +1046,21 @@ def Kg2Pound(kg):
 
 def Pound2Kg(lb):
     return lb / 2.20462
+
+# Speed of light in a vacuum (m/s)
+c = 299792458
+
+# Planck's constant (J*s)
+h = 6.62607015e-34
+
+# Elementary charge (C)
+e = 1.602176634e-19
+
+# Boltzmann constant (J/K)
+k = 1.380649e-23
+
+# Avogadro constant (mol^-1)
+Na = 6.02214076e23
+
+# Gravitational constant (m^3/kg/s^2)
+G = 6.67430e-11
