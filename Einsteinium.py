@@ -1065,7 +1065,7 @@ Na = 6.02214076e23
 # Gravitational constant (m^3/kg/s^2)
 G = 6.67430e-11
 
-def planets_info_get():
+def planets_info_get(celestial_object):
     planet_dict = {
         "Mercury": {
             "mass": 3.3011e23,
@@ -1140,20 +1140,19 @@ def planets_info_get():
             "number_of_moons": 14
         },
         'Moon': {
-            'Type': 'Moon',
-            'Distance from Planet (km)': 384400,
-            'Diameter (km)': 3475,
-            'Mass': 7.34e22,
-            'Orbital Period (days)': 27.32,
-            'Rotation Period (days)': 27.32,
-            'Surface Temperature (K)': 250
+            'distance_from_sun': 384400,
+            'diameter': 3475,
+            'mass': 7.34e22,
+            'orbital_period': 27.32,
         },
         'Sun': {
-            'Type': 'Star',
-            'Distance from center of Milky Way (light years)': 0,
-            'Diameter (km)': 1391684,
-            'Mass': 1.989e30,
-            'Number of Planets': 8
+            'diameter': 1391684,
+            'mass': 1.989e30,
+            'distance_from_sun': 0,
+
         },
     }
-    return planet_dict
+    if celestial_object in planet_dict:
+        return planet_dict[celestial_object]
+    else:
+        return None
