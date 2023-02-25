@@ -1,9 +1,9 @@
 # EinsteiniumPY
 Python Library for pulling basic Scientific Info
 
-#Usage
+# Usage
 
-##Exsample 1
+## Exsample 1
 ```
 import periodic_table
 element_name = "hydrogen"
@@ -28,5 +28,5 @@ Period: 1
 Category: nonmetal
 ```
 
-#Installation
+# Installation
 put the
