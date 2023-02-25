@@ -2,8 +2,7 @@
 Python Library for pulling basic Scientific Info
 
 
-[![Monero Wallet](https://img.shields.io/badge/monero-FF6600?style=for-the-badge&logo=monero&logoColor=white)](https://getmonero.org/
-
+[![Monero Wallet](https://img.shields.io/badge/monero-wallet-ff6600.svg)](https://getmonero.org/)
 # Usage
 
 ## Exsample 1
