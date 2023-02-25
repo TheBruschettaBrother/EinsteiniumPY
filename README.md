@@ -81,4 +81,17 @@ celsius_temp = einsteinium.Kelvin2Celsius(kelvin_temp)  # Convert to Celsius
 print(celsius_temp)
 ```
 **Example Output**
+
 ```26.850000000000023```
+
+## .Celsius2Kelvin
+the Celsius2Kelvin Converts Kelvin to Celcuis, quite straightforward.
+## Example
+```
+celsius_temp = 100.0  # Temperature in Celsius
+kelvin_temp = einsteinium.Celsius2Kelvin(celsius_temp)  # Convert to Kelvin
+print(kelvin_temp) 
+```
+**Example Output**
+
+```373.15```
