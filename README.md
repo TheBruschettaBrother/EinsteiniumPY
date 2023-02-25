@@ -60,7 +60,7 @@ if element_info:
 else:
     print("Element not found.")
 ```
-**Example's Output**
+**Example Output**
 ```
 Symbol: H
 Atomic number: 1
