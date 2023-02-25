@@ -48,8 +48,8 @@ We have the .periodic_table_get function that can fetch about a certain element 
 ##.particle_info_get
 The .particle_info_get Is limited but can get the Symbol,Charge and mass of over 10 types of particles. This is very Limited right now and we are working on it.
 ## Example 1
-```import Einsteinium as einsteinium
-
+```
+import Einsteinium as einsteinium
 # Get information about a proton
 proton_info = einsteinium.particle_info_get('proton')
 
